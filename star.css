@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: hsl(199, 14%, 52%);
+    font-family: "poppins", sans-serif;
+}
+.card{
+    max-width: 33rem;
+    background: whitesmoke;
+    margin: 0 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    border: 3px solid black;
+}
+.card img{
+    max-width: 30rem;
+    border: 2px solid rgb(222, 198, 16);
+    border-radius: 30px;
+}
+.star{
+    font-size: 10vh;
+    cursor: pointer;
+}
+.one{
+    color: rgb(222, 222, 49);
+}
+.two{
+    color: green;
+}
+.three{
+    color: rgb(186, 24, 151);
+}
+.four{
+    color: rgb(207, 35, 63);
+}
+.five{
+    color: rgba(24, 159, 14);
+}
